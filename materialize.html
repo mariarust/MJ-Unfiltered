@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materialize</title>
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Google Fonts: Cute Script Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #e8eaf6; /* Indigo Lighten-5 */
+            color: #1a237e; /* Indigo Darken-4 */
+        }
+        h1 {
+            font-family: 'Pacifico', cursive; /* Cute Script Font */
+            color: #3f51b5; /* Primary Indigo */
+        }
+        h3 {
+            color: #3f51b5; /* Primary Indigo */
+        }
+        .custom-card {
+            background-color: #5c6bc0; /* Indigo Lighten-1 */
+            border-radius: 10px;
+            padding: 15px;
+        }
+        .card-title {
+            color: #8c9eff; /* Indigo Accent-1 */
+        }
+        .circle-img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 3px solid #3d5afe; /* Indigo Accent-3 */
+        }
+        .video-container {
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #1a237e;
+            font-weight: bold;
+        }
+        nav ul li a.active {
+            color: #3d5afe;
+        }
+
+        /* Adjust image size for Zach Bryan */
+        .styled-img {
+            width: 100%;
+            max-width: 200px; /* Adjust size as needed */
+            height: auto;
+        }
+        .content-text {
+            font-family: 'Pacifico', cursive;
+            color: #1a237e; /* Indigo Darken-4 */
+            font-size: 1.2em;
+            line-height: 1.6em;
+        }
+
+        /* Style for captions under images */
+        .image-caption {
+            font-family: 'Pacifico', cursive;
+            color: #3f51b5; /* Primary Indigo */
+            font-size: 1.2em;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body id="memories-page">
+    <header>
+        <h1 class="center">Materialize- My Memories</h1>
+        <!-- Navigation bar -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="myachievements.html">My Achievements</a></li>
+                <li><a href="mydreams.html">My Dreams</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- Circular Images -->
+        <div class="row center">
+            <div class="col s4">
+                <img src="/MJ Unfiltered /Images/zachbryan.jpg" alt=Maria at Zach" class="circle responsive-img circle-img">
+                <p class="image-caption">Zach Bryan Concert</p>
+            </div>
+            <div class="col s4">
+                <img src="/MJ Unfiltered /Images/noahkahan.jpg" alt="Noah Kahan" class="circle responsive-img circle-img">
+                <p class="image-caption">Noah Kahan Show</p>
+            </div>
+            <div class="col s4">
+                <img src="/MJ Unfiltered /Images/dateparty.jpg" alt="Date Party" class="circle responsive-img circle-img">
+                <p class="image-caption">Formal Date Party</p>
+            </div>
+        </div>
+
+        <!-- Text Content -->
+        <div class="content-text">
+            <h3>Zach Bryan Concert with My Mom</h3>
+            <p>The Zach Bryan concert was one of the most memorable experiences I've ever had! I went with my mom, and we had an amazing time together. It was so special because not only was I able to see one of my favorite artists live, but I also got to share it with someone so close to me. The energy at the concert was incredible, and hearing the songs I grew up listening to was such a moving experience. It was a night I’ll never forget!</p>
+
+            <h3>Date Parties at Miami with My Friends</h3>
+            <p>This year’s date parties at Miami have been an absolute blast! It's been such a great experience meeting new people and connecting with friends I hadn’t met before. The energy was always high, and the memories we created together will last a lifetime. Every event was filled with laughter, good vibes, and unforgettable moments. I’m so grateful to have such amazing friends to share these experiences with!</p>
+
+            <h3>Noah Kahan Show with My Friends</h3>
+            <p>Over the past summer, I attended the Noah Kahan concert with my friends, and it was such an incredible experience. Not only was it a fun night out, but it was also a bit nostalgic for me. Noah Kahan was my favorite artist in high school, and being able to see him live was something I had dreamed about for years. Sharing this moment with my friends made it even more special. The concert was full of energy, and the music brought back so many memories of high school. It was truly a night to remember!</p>
+        </div>
+
+        <!-- Video Embed -->
+        <div class="row">
+            <div class="col s12 m8 offset-m2">
+                <div class="card custom-card">
+                    <div class="card-content">
+                        <span class="card-title">Hawaii Trip</span>
+
+                        <p>Here is a video from my unforgettable trip to Hawaii!</p>
+
+                        <!-- YouTube Embed (iframe) -->
+                        <div class="video-container">
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/r3lVBJUuSdM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Materialize JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+

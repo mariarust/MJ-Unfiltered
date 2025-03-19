@@ -1,0 +1,380 @@
+/* General Page Styling */
+body {
+    background-color: #fde2e4; /* Soft pink background */
+    font-family: Arial, sans-serif;
+    color: #4a4a4a;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #ffcad4; /* Pastel pink */
+    color: #6d597a; /* Muted purple */
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* List Styling */
+ul, ol {
+    background-color: #fff1e6; /* Light peach */
+    padding: 15px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+li {
+    margin: 5px 0;
+    font-weight: bold;
+    color: #6d597a;
+}
+
+/* Table Styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #d8e2dc; /* Light greenish-gray */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #6d597a; /* Muted purple border */
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #b7e4c7; /* Soft mint green */
+    color: #4a4a4a;
+}
+
+td {
+    background-color: #f8edeb; /* Warm cream */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #ffcad4;
+    color: #6d597a;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Target only aboutme.html */
+#aboutme-page nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+#aboutme-page nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+#aboutme-page nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+    font-size: 18px;
+}
+
+#aboutme-page nav ul li a:hover {
+    color: #007bff;
+}
+
+/* Make images smaller only on aboutme.html */
+#aboutme-page .styled-img {
+    width: 200px;  /* Adjust size */
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+/* Styling ONLY for mydreams.html */
+body[data-page="mydreams"] nav {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4); /* Cute pink gradient */
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px; /* Rounded nav bar */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
+}
+
+body[data-page="mydreams"] nav ul li a {
+    color: white; /* Soft white text */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+body[data-page="mydreams"] nav ul li a:hover {
+    background-color: #ff6b81; /* Cute pink hover */
+    color: #fff;
+}
+
+/* Image Styling - Smaller & Styled */
+body[data-page="mydreams"] img {
+    border-radius: 15px; /* Softer edges */
+    box-shadow: 5px 5px 15px rgba(255, 105, 180, 0.4); /* Dreamy pink shadow */
+    width: 50%; /* Smaller image size */
+    max-width: 300px; /* Prevents images from getting too big */
+    display: block;
+    margin: 15px auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+body[data-page="mydreams"] img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+/* Styling ONLY for mydreams.html */
+body[data-page="mydreams"] nav {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4); /* Cute pink gradient */
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px; /* Rounded nav bar */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
+}
+
+body[data-page="mydreams"] nav ul li a {
+    color: white; /* Soft white text */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+body[data-page="mydreams"] nav ul li a:hover {
+    background-color: #ff6b81; /* Cute pink hover */
+    color: #fff;
+}
+
+/* Image Styling - Smaller & Styled */
+body[data-page="mydreams"] img {
+    border-radius: 15px; /* Softer edges */
+    box-shadow: 5px 5px 15px rgba(255, 105, 180, 0.4); /* Dreamy pink shadow */
+    width: 50%; /* Smaller image size */
+    max-width: 300px; /* Prevents images from getting too big */
+    display: block;
+    margin: 15px auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+body[data-page="mydreams"] img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+/* 🎀 Unique Navigation for Index Page 🎀 */
+body[data-page="index"] nav {
+    background: linear-gradient(to right, #a18cd1, #fbc2eb); /* Purple-pink gradient */
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+body[data-page="index"] nav ul li a {
+    color: #fff; /* Soft white text */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+body[data-page="index"] nav ul li a:hover {
+    background-color: #6a4c93; /* Cute deep purple hover */
+    color: #fff;
+}
+
+/* 🎀 Stylish Background for Index Page 🎀 */
+body[data-page="index"] {
+    background: #ffe4e1; /* Soft pastel pink */
+    color: #333; /* Darker text for readability */
+    font-family: "Poppins", sans-serif;
+}
+
+/* 🎀 Headers & Titles 🎀 */
+body[data-page="index"] h1, 
+body[data-page="index"] h2 {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: #6a4c93; /* Cute purple */
+}
+
+/* 🎀 Section Styling for a Soft Card Look 🎀 */
+body[data-page="index"] section {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(106, 76, 147, 0.2);
+    padding: 20px;
+    margin: 20px;
+}
+
+/* 🎀 Images - Soft & Pretty 🎀 */
+body[data-page="index"] img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(255, 105, 180, 0.4);
+    width: 50%;
+    max-width: 350px;
+    display: block;
+    margin: 15px auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+body[data-page="index"] img:hover {
+    transform: scale(1.05);
+}
+
+/* 🎀 Footer Styling 🎀 */
+body[data-page="index"] footer {
+    background: #6a4c93;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 0 0 15px 15px;
+}
+/* Ensure the body and html take up the full height of the viewport */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Apply flexbox layout to the body */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content section will take up the remaining space */
+.container {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Footer stays at the bottom */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+}
+/* General Styling for My Achievements Page */
+#myachievements-page {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Styling for Navigation Bar */
+#myachievements-page nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #ff99cc;  /* Light Pink Background */
+    margin: 0;
+    font-size: 18px;
+}
+
+#myachievements-page nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+#myachievements-page nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#myachievements-page nav ul li a:hover,
+#myachievements-page nav ul li a.active {
+    background-color: #ff66b2; /* A slightly darker pink when active or hover */
+    color: white;
+}
+
+/* Styling for Main Content */
+#myachievements-page .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Styling for Main Content Section */
+#myachievements-page .main-content section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+/* Styling for Future Goals aside */
+#myachievements-page aside {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for Images */
+#myachievements-page img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%; /* Default circular shape for profile images */
+    margin: 10px;
+}
+
+/* Styling for Different Image Shapes */
+#myachievements-page .square-img {
+    border-radius: 10px;  /* Square shape */
+}
+
+#myachievements-page .rectangle-img {
+    border-radius: 20px;  /* Rectangular image with rounded corners */
+    width: 200px;
+    height: 150px;
+}
+
+#myachievements-page .triangle-img {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);  /* Triangle shape */
+    width: 150px;
+    height: 150px;
+}
+
+/* Styling for Tables */
+#myachievements-page table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#myachievements-page th, #myachievements-page td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#myachievements-page th {
+    background-color: #ff66b2;
+    color: white;
+}
+
+/* Styling for Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
